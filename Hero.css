@@ -1,0 +1,43 @@
+.swiper{
+    height: 100vh;
+}
+.slide{
+    background: url(../assets/images/hero/hero-bg.jpg) center no-repeat;
+    background-size: cover;
+}
+.slide1{
+    background: url(../assets/images/hero/hero-bg-2.jpg) center no-repeat;
+    background-size: cover;
+}
+.swiper-button-prev, .swiper-button-next{
+    display: block;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    background: transparent;
+    color: white;
+    line-height: 45px;
+    border: 2px solid var(--white);
+    text-transform: uppercase;
+    transition: all 0.5s cubic-bezier(.4,0,.2,1);
+    top: 93%;
+    right: 50px;
+}
+.swiper-button-prev{
+    left: 90%;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+    font-size: 20px;
+}
+.discover-btn{
+    width: fit-content;
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+.discover-btn:hover{
+    background-color: var(--body-bg) !important;
+    border-color: var(--body-bg) !important;
+}
+.contact{
+    transform: rotate(-90deg);
+}

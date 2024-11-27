@@ -1,0 +1,41 @@
+/* Checkout */
+.checkout-data{
+    border-top: 3px solid var(--main-color);
+    background-color: rgb(39, 39, 39);
+    position: relative;
+    z-index: 99;
+}
+.checkout-detail, .menu{
+    font-family: var(--main-ff);
+}
+.checkout-detail p, .menu-btn{
+    color: var(--secondary-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+.date input[type="date"]{ 
+    background: transparent;
+    font-size: 16px;
+    color: white;
+}  
+input[type="date"]::-webkit-calendar-picker-indicator{
+    filter: invert(100%);
+}
+.menu{
+    background-color: rgb(39, 39, 39);
+    border-radius: 2px;
+}
+.add, .sub{
+    display: block;
+    height: 24px;
+    width: 24px;
+    background-color: var(--main-color);
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+/* Rooms */
+.rooms{
+    background: url(../assets/images/rooms/room-shape-2.png) no-repeat center;
+}

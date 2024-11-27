@@ -1,0 +1,24 @@
+header{
+    padding: 25px 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+nav > ul > li > .pages{
+    color: var(--white);
+    font-family: var(--main-ff);
+    text-transform: uppercase;
+    padding: 8px 12px;
+    transition: all 0.3s cubic-bezier(.4,0,.2,1);
+}
+nav > ul > li > .pages:hover{
+    color: var(--main-color);
+}
+.nav-right svg{
+    transition: all 0.3s cubic-bezier(.4,0,.2,1);;
+}
+.nav-right svg:hover{
+    transform: rotate(90deg);
+}
